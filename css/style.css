@@ -1,0 +1,74 @@
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+/*-------introduction-------------*/
+.intro{
+	width:960px;
+	height: 720px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -360px 0 0 -480px;
+}
+
+.intro p{
+	width:960px;
+	height: 720px;
+}
+
+.begin_prac {
+	background: url(../images/introduction1.png) no-repeat;	
+}
+
+.begin_again {
+	background: url(../images/introduction2.png) no-repeat;	
+	display: none;	
+}
+
+.begin_stand {
+	background: url(../images/introduction3.png) no-repeat;	
+	display: none;	
+}
+
+/*-------container-------------*/
+.container {
+	height:170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: none;
+}
+
+.pic_con {
+	height:170px;
+} 
+
+.pic_left{
+	width:220px;
+	height:170px;
+	float:left;
+}
+
+.pic_right{
+	width:220px;
+	height:170px;
+	float:right;
+}
+
+.audio_5{
+	display: none;
+}
+
+.audio_5 img{
+	margin-left: 177px; 
+}
+
+.record {
+	display: none;
+}
+
+
+
+
